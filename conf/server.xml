@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<Service name = "Catalina">
+		<Connector port = "18080"
+				   compression="on"
+				   compressionMinSize="20"
+				   noCompressionUserAgents="gozilla, traviata"
+				   compressableMimeType="text/html,text/xml,text/javascript,application/javascript,text/css,text/plain,text/json"
+
+
+		/>
+		<Connector port = "18081"/>
+		<Connector port = "18082"/>
+		<Engine defaultHost = "localhost">
+			<Host name = "localhost">
+		<!-- 应用配置 -->
+				<Context path = "/b" docBase="D:/intellij/work_space/diyTomcat/b"/>
+				<Context path="/javaweb" docBase="D:/intellij/work_space/javaweb/web" reloadable="true"/>
+			</Host>
+		</Engine>	
+	</Service>
+	
+</server>

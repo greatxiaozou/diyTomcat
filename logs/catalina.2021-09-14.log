@@ -1,0 +1,768 @@
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 169 ms
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 2 ms
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 1 ms
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 15:58:07 涓嬪崍 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 3 ms
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 73 ms
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 3 ms
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 16:13:45 涓嬪崍 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 6 ms
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 62 ms
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 2 ms
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 16:37:56 涓嬪崍 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 3 ms
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 97 ms
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 3 ms
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 1 ms
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 16:50:41 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 6 ms
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 109 ms
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 4 ms
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		amd64
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files\Java\jdk-14.0.1
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		14.0.1+7
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 16:53:39 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 7 ms
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 65 ms
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 1 ms
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 0 ms
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 21:55:58 涓嬪崍 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 5 ms
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 64 ms
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 2 ms
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 22:00:22 涓嬪崍 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 5 ms
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 72 ms
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 4 ms
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 22:01:52 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 7 ms
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 67 ms
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 2 ms
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 1 ms
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 22:12:59 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 10 ms
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 68 ms
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 2 ms
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 1 ms
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 22:16:06 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 10 ms
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 68 ms
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 3 ms
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 23:28:32 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 8 ms
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 87 ms
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 3 ms
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 1 ms
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 23:31:13 涓嬪崍 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 6 ms
+09 14, 2021 23:31:35 涓嬪崍 top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1@1ceefbb妫�娴嬪埌閲嶈鏂囦欢鍙樺寲锛欻elloServlet.class
+09 14, 2021 23:31:35 涓嬪崍 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reloading context with name [/javaweb] has started,
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 5 ms
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reload context with name [/javaweb] has finished,
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1@b666ef妫�娴嬪埌閲嶈鏂囦欢鍙樺寲锛歵op
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reloading context with name [/javaweb] has started,
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 23:31:36 涓嬪崍 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reload context with name [/javaweb] has finished,
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 87 ms
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 7 ms
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 2 ms
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 2 ms
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 23:31:59 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 11 ms
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1@1d53da7检测到重要文件变化：HelloServlet.class
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reloading context with name [/javaweb] has started,
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 2 ms
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reload context with name [/javaweb] has finished,
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1@6cfd0b检测到重要文件变化：top
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reloading context with name [/javaweb] has started,
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 23:32:19 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reload context with name [/javaweb] has finished,
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\a has finished in 68 ms
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\j2ee
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\j2ee has finished in 5 ms
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/diyTomcat/b
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/diyTomcat/b has finished in 1 ms
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 2 ms
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Server number:		1.0.1
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Name	:		Windows 10
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : OS Version:		10.0
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Architecture:		x86
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jre1.8.0_271
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18080}
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18080}
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18081}
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18081}
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Connector init
+INFO : initializing ProtocolHandler {http-bio-18082}
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Connector start
+INFO : Starting ProtocolHandler {http-bio-18082}
+09 14, 2021 23:32:31 下午 top.greatxiaozou.diyTomcat.Server start
+INFO : Server startup in 6 ms
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1@10d3b61检测到重要文件变化：HelloServlet.class
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reloading context with name [/javaweb] has started,
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 6 ms
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reload context with name [/javaweb] has finished,
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : top.greatxiaozou.diyTomcat.watcher.ContextFileChangeWatcher$1@3175d3检测到重要文件变化：top
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reloading context with name [/javaweb] has started,
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deploying web.xml application directory D:/intellij/work_space/javaweb/web
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Context deploy
+INFO : Deployment of web.xml application D:/intellij/work_space/javaweb/web has finished in 1 ms
+09 14, 2021 23:32:40 下午 top.greatxiaozou.diyTomcat.Host reload
+INFO : Reload context with name [/javaweb] has finished,

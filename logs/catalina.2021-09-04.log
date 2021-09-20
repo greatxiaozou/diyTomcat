@@ -1,0 +1,146 @@
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\a has finished in 91 ms
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Architecture:		x86
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 04, 2021 11:51:05 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\a has finished in 86 ms
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 1 ms
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:/intellij/work_space/diyTomcat/b
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Architecture:		x86
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 04, 2021 11:53:49 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\a has finished in 77 ms
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:/intellij/work_space/diyTomcat/b
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Architecture:		x86
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 04, 2021 11:59:42 上午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\a has finished in 115 ms
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 2 ms
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:/intellij/work_space/diyTomcat/b
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Architecture:		x86
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 04, 2021 16:48:56 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\a
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\a has finished in 68 ms
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:\intellij\work_space\diyTomcat\webapps\ROOT
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:\intellij\work_space\diyTomcat\webapps\ROOT has finished in 0 ms
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deploying web application directory D:/intellij/work_space/diyTomcat/b
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Context <init>
+INFO : Deployment of web application D:/intellij/work_space/diyTomcat/b has finished in 0 ms
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server version:		Greatxiaozou DiyTomcat/1.0.1
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server built:		2020-04-08 10:20:22
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Architecture:		x86
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : Java Home:		C:\Program Files (x86)\Java\jdk1.8.0_271\jre
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_271-b09
+09 04, 2021 17:32:12 下午 top.greatxiaozou.diyTomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
