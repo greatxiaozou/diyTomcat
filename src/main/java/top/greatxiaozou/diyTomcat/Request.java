@@ -6,8 +6,8 @@ import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
 import lombok.Data;
-import org.apache.tomcat.util.http.Cookies;
 import top.greatxiaozou.Utils.Utils;
+import top.greatxiaozou.diyTomcat.base.BaseRequest;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -18,7 +18,6 @@ import java.io.InputStream;
 import java.io.StringReader;
 import java.net.InetSocketAddress;
 import java.net.Socket;
-import java.net.SocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 

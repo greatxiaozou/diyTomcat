@@ -22,6 +22,7 @@ import java.nio.charset.StandardCharsets;
 
 /**
  *  表示多端口启动的类
+ *  同时处理http多连接
  */
 @Getter
 @Setter

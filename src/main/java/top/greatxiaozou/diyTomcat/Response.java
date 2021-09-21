@@ -2,12 +2,11 @@ package top.greatxiaozou.diyTomcat;
 
 import cn.hutool.core.date.DateField;
 import cn.hutool.core.date.DateUtil;
-import lombok.Builder;
 import lombok.Data;
+import top.greatxiaozou.diyTomcat.base.BaseResponse;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;

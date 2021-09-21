@@ -5,7 +5,6 @@ import cn.hutool.core.util.StrUtil;
 import top.greatxiaozou.Utils.JspUtil;
 import top.greatxiaozou.Utils.Utils;
 import top.greatxiaozou.Utils.WebXmlUtils;
-import top.greatxiaozou.diyTomcat.BaseRequest;
 import top.greatxiaozou.diyTomcat.Context;
 import top.greatxiaozou.diyTomcat.Request;
 import top.greatxiaozou.diyTomcat.Response;
