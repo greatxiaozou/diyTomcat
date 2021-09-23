@@ -21,7 +21,7 @@ import java.util.Map;
 public class MiniBrowser {
     public static void main(String[] args) {
 
-        String url = "http://static.how2j.cn/diytomcat.html";
+        String url = "#";
         String contentString = getContentString(url, false,null,true);
         System.out.println(contentString);
         System.out.println("====================分隔符=================");
