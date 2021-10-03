@@ -18,6 +18,9 @@ import java.io.InputStream;
 import java.io.StringReader;
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.nio.ByteBuffer;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
@@ -35,6 +38,9 @@ public class Request extends BaseRequest {
     private Context context;
     private String method;
     private HttpSession session;
+
+    //NIO形式的返回
+    private SelectionKey key;
 
     //cookies
     private Cookie[] cookies;
@@ -54,18 +60,35 @@ public class Request extends BaseRequest {
 
 //    构造方法
     public Request(Socket socket,Connector connector) throws IOException {
+        this(connector);
         this.socket = socket;
+//      BIO，即Socket的形式返回、
+        parseHttpRequest();
+        init();
+
+    }
+//   传入key时的构造方法
+    public Request(SelectionKey key,Connector connector) throws IOException {
+        this(connector);
+        this.key = key;
+        SocketChannel channel = (SocketChannel) key.channel();
+        socket = channel.socket();
+//      NIO的形式构造Request
+        parseHttpRequestNio();
+        init();
+    }
+
+    public Request(Connector connector){
         this.connector = connector;
         this.parameterMap = new HashMap<>();
         this.attributesMap = new HashMap<>();
 
         //请求头参数的map
         this.headerMap = new HashMap<>();
+    }
 
-
+    private void init() {
         //调用http的解析方法
-        parseHttpRequest();
-
         if (StrUtil.isEmpty(requestString)){
             return;
         }
@@ -110,6 +133,22 @@ public class Request extends BaseRequest {
         InputStream is = this.socket.getInputStream();
         byte[] readBytes = Utils.readBytes(is,false);
         requestString = new String(readBytes, StandardCharsets.UTF_8).trim();
+    }
+
+    //使用NIO解析请求
+    public void parseHttpRequestNio() throws IOException {
+        SocketChannel channel = (SocketChannel) this.key.channel();
+        ByteBuffer buffer = ByteBuffer.allocate(1024);
+        int read = channel.read(buffer);
+        if (read > 0){
+            buffer.flip();
+            requestString = new String(buffer.array(),0,read);
+//            请求传入，在另一端可以获取到请求的内容
+            key.attach(requestString);
+        }else {
+            channel.close();
+        }
+        buffer.clear();
     }
 
     //解析uri

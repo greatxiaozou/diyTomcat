@@ -4,6 +4,7 @@ import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.ZipUtil;
 import cn.hutool.log.LogFactory;
+import top.greatxiaozou.Utils.NIOUtil;
 import top.greatxiaozou.Utils.SessionManager;
 import top.greatxiaozou.Utils.Utils;
 import top.greatxiaozou.diyTomcat.servlets.DefaultServlet;
@@ -11,11 +12,15 @@ import top.greatxiaozou.diyTomcat.servlets.InvokerServlet;
 import top.greatxiaozou.diyTomcat.servlets.JspServlet;
 
 import javax.servlet.Filter;
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
+import java.nio.ByteBuffer;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
@@ -24,12 +29,12 @@ import java.util.List;
  */
 public class HttpProcessor {
     /**
-     * 处理http的socket连接的方法
-     * @param s：接受到的Socket连接
+     * BIO处理http的socket连接的方法
+     * @param socket：接受到的Socket连接
      * @param request：http请求内容
      * @param response http响应内容
      */
-    public void executor(Socket socket,Request request,Response response){
+    public void executor(Socket socket,Request request,Response response) throws IOException {
         try {
             String uri = request.getUri();
             if (uri == null){
@@ -37,42 +42,31 @@ public class HttpProcessor {
             }
             prepareSession(request,response);
 
-            Context context = request.getContext();
-            String className = context.getServletClassName(uri);
-
-
-            HttpServlet workServlet;
-            //当className不为空，则让InvokerServlet去处理http请求
-            //如果className为空，即未在web.xml中配置相关映射，则用DefaultServlet来处理静态资源的访问
-            if (className != null){
-                workServlet = InvokerServlet.getINSTANCE();
-            }else if (uri.endsWith(".jsp")){
-                workServlet = JspServlet.getINSTANCE();
-            }else{
-                workServlet = DefaultServlet.getINSTANCE();
-            }
-
-//            过滤器的调用链,将servlet传入chains，让他在过滤完之后在调用
-            List<Filter> filters = context.getMatchedFilter(request.getRequestURI());
-            ApplicationFilterChain filterChain = new ApplicationFilterChain(filters, workServlet);
-            filterChain.doFilter(request,response);
+            //调用servlet处理请求和响应
+            doServlet(request,response);
 //            是否已经请求转发了,防止已经关闭的socket重复使用
             if (request.isForwarded()){
                 return;
             }
-
+            byte[] resp = null;
             if (response.getStatus() == 200){
-                handle200(socket, request,response);
+                resp = handle200(request,response);
             }
             if (response.getStatus() == 302){
-                handle302(socket,response);
+                resp = handle302(response);
             }
             if (response.getStatus() == 404){
-                handle404(socket,uri);
+                resp = handle404(uri);
             }
+//            将数据返回给socket
+            assert resp != null;
+            socket.getOutputStream().write(resp);
         }catch (Exception e){
             LogFactory.get().error(e);
-            handle500(socket,e);
+            //将错误调用栈打印出来
+            StackTraceElement[] ses = e.getStackTrace();
+            byte[] bytes = handle500(ses, e);
+            socket.getOutputStream().write(bytes);
         }finally {
             try {
                 if (!socket.isClosed()){
@@ -84,6 +78,67 @@ public class HttpProcessor {
         }
     }
 
+//    NIO处理HTTP连接的方法
+    public void executor(SelectionKey key,Request request,Response response){
+        try {
+            String uri = request.getUri();
+            if (uri == null){
+                return;
+            }
+            prepareSession(request,response);
+            doServlet(request,response);
+
+            if (request.isForwarded()){
+                return;
+            }
+            byte[] resp = null;
+            if (response.getStatus() == 200){
+                resp = handle200(request,response);
+            }
+            if (response.getStatus() == 302){
+                resp = handle302(response);
+            }
+            if (response.getStatus() == 404){
+                resp = handle404(uri);
+            }
+            assert resp != null;
+            ByteBuffer buffer = ByteBuffer.wrap(resp);
+            SocketChannel channel = (SocketChannel) key.channel();
+
+            channel.write(buffer);
+//            更改注册事件，注册写入事件
+            channel.close();
+            //channel.register(NIOUtil.getSelector(),SelectionKey.OP_WRITE);
+        }catch (IOException | ServletException e){
+            LogFactory.get().error(e);
+
+        }
+    }
+
+
+    public void doServlet(Request request,Response response) throws IOException, ServletException {
+        String uri = request.getUri();
+
+        Context context = request.getContext();
+        String className = context.getServletClassName(uri);
+
+
+        HttpServlet workServlet;
+        //当className不为空，则让InvokerServlet去处理http请求
+        //如果className为空，即未在web.xml中配置相关映射，则用DefaultServlet来处理静态资源的访问
+        if (className != null){
+            workServlet = InvokerServlet.getINSTANCE();
+        }else if (uri.endsWith(".jsp")){
+            workServlet = JspServlet.getINSTANCE();
+        }else{
+            workServlet = DefaultServlet.getINSTANCE();
+        }
+
+//            过滤器的调用链,将servlet传入chains，让他在过滤完 之后在调用
+        List<Filter> filters = context.getMatchedFilter(request.getRequestURI());
+        ApplicationFilterChain filterChain = new ApplicationFilterChain(filters, workServlet);
+        filterChain.doFilter(request,response);
+    }
 
 //     解析session,将Session从sessionManager中取出并放到request中
     public void prepareSession(Request request,Response response){
@@ -94,7 +149,7 @@ public class HttpProcessor {
 
 
     //========对200响应的处理,将response变成字节数组的形式并返回==============================
-    private static void handle200(Socket socket,Request request,Response response) throws IOException {
+    private static byte[] handle200(Request request,Response response) throws IOException {
 
         //分别获取响应头和响应体
         String contentType = response.getContentType();
@@ -119,67 +174,55 @@ public class HttpProcessor {
         ArrayUtil.copy(body,0,respBytes,head.length,body.length);
 
         //写入响应
-        socket.getOutputStream().write(respBytes,0,respBytes.length);
-
+        return respBytes;
         //关闭资源
         //关闭做到start的finally里
         // socket.close();
     }
 
     //处理404
-    protected void handle404(Socket s,String uri) throws IOException {
-        OutputStream os = s.getOutputStream();
+    protected byte[] handle404(String uri) {
 //        拼接回复
         String text = StrUtil.format(Utils.TEXT_FORMAT_404, uri, uri);
         text = Utils.RESPONSE_HEAD_404 + text;
 
-        byte[] res = text.getBytes(StandardCharsets.UTF_8);
-
-        //写入到socket回复
-        os.write(res);
+        return text.getBytes(StandardCharsets.UTF_8);
 
     }
 
     //处理500错误
-    protected void handle500(Socket s,Exception e){
-        try {
-            OutputStream os = s.getOutputStream();
-            //将错误调用栈打印出来
-            StackTraceElement[] ses = e.getStackTrace();
-            StringBuffer sb = new StringBuffer();
+    protected byte[] handle500(StackTraceElement[] ses,Exception e){
 
-            sb.append(e.toString());
+        StringBuffer sb = new StringBuffer();
+
+        sb.append(e.toString());
+        sb.append("\r\n");
+        for (StackTraceElement se : ses) {
+            sb.append("\t");
+            sb.append(se.toString());
             sb.append("\r\n");
-            for (StackTraceElement se : ses) {
-                sb.append("\t");
-                sb.append(se.toString());
-                sb.append("\r\n");
-            }
-
-            //错误的信息
-            String message = e.getMessage();
-            if (message != null && message.length() > 20){
-                message = message.substring(0,19);
-            }
-
-            //将错误信息、错误、和错误调用栈返回给前端
-            String text = StrUtil.format(Utils.TEXT_FORMAT_500, message, e.toString(), sb.toString());
-            text = Utils.RESPONSE_HEAD_500 + text;
-
-            os.write(text.getBytes(StandardCharsets.UTF_8));
-        } catch (IOException ex) {
-            ex.printStackTrace();
         }
+
+        //错误的信息
+        String message = e.getMessage();
+        if (message != null && message.length() > 20){
+            message = message.substring(0,19);
+        }
+
+        //将错误信息、错误、和错误调用栈返回给前端
+        String text = StrUtil.format(Utils.TEXT_FORMAT_500, message, e.toString(), sb.toString());
+        text = Utils.RESPONSE_HEAD_500 + text;
+
+        return (text.getBytes(StandardCharsets.UTF_8));
     }
 
     //处理302跳转
-    private void handle302(Socket socket,Response response) throws IOException {
-        OutputStream os = socket.getOutputStream();
+    private byte[] handle302(Response response) throws IOException {
+
         String redirectPath = response.getRedirectPath();
         String header = StrUtil.format(Utils.RESPONSE_HEAD_302,redirectPath);
-        byte[] bytes = header.getBytes();
-        System.out.println(header);
-        os.write(bytes);
+        return header.getBytes();
+
     }
 
 //    判断是否需要压缩

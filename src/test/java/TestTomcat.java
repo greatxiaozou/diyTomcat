@@ -30,6 +30,12 @@ public class TestTomcat {
     private static int port = 18080;
     private static String host = "127.0.0.1";
 
+    public static void main(String[] args) {
+        String a = "001";
+        Integer ia = Integer.valueOf(a);
+        System.out.println(ia);
+    }
+
 
     @BeforeClass
     public static void beforeClass(){

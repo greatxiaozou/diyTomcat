@@ -4,10 +4,9 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.log.LogFactory;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
+import lombok.*;
+import top.greatxiaozou.Utils.NIOUtil;
 import top.greatxiaozou.Utils.ThreadUtils;
 import top.greatxiaozou.Utils.Utils;
 import top.greatxiaozou.Utils.WebXmlUtils;
@@ -17,7 +16,12 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
+import java.util.Set;
 
 
 /**
@@ -41,6 +45,9 @@ public class Connector implements Runnable {
     private String noCompressionUserAgents;
     private String compressableMimeType;
 
+//    管理连接的多路复用器
+    private Selector selector;
+
 
 
 
@@ -62,8 +69,16 @@ public class Connector implements Runnable {
     }
 
 //    任务或者线程的run方法，执行的真正流程在此处
+    @SneakyThrows
     @Override
     public void run() {
+//        bioRun();
+        nioRun();
+    }
+
+
+    //BIO的形式管理链接
+    private void bioRun(){
         try{
             ServerSocket serverSocket = new ServerSocket(port);
 
@@ -100,6 +115,78 @@ public class Connector implements Runnable {
             e.printStackTrace();
         }
     }
+
+//    NIO的形式管理连接和数据
+    public void nioRun() throws IOException {
+        selector = NIOUtil.getSelector(port);
+        assert selector != null;
+
+        while (true){
+            selector.select(3000);
+
+            Set<SelectionKey> keys = selector.selectedKeys();
+            for (SelectionKey key : keys) {
+                //处理key并移除
+                processKey(key);
+                keys.remove(key);
+            }
+        }
+
+
+
+    }
+//    对连接进行处理
+    private void processKey(SelectionKey key){
+        try{
+//        判断key的类别并进行处理
+            if (key.isAcceptable()){
+                acceptKey(key);
+            }else if (key.isReadable()){
+                readKey(key);
+            }else if (key.isWritable()){
+                writeKey(key);
+            }
+        }catch (IOException e){
+            LogFactory.get().error(e);
+            e.printStackTrace();
+        }
+    }
+
+//    对可接受的key进行处理
+    private void acceptKey(SelectionKey key) throws IOException {
+
+
+//        获取channel
+        ServerSocketChannel serverSocketChannel = (ServerSocketChannel) key.channel();
+//        设置非阻塞
+        SocketChannel socketChannel = serverSocketChannel.accept();
+        socketChannel.configureBlocking(false);
+//            连接之后设置为可读
+        socketChannel.register(selector,SelectionKey.OP_READ);
+
+    }
+
+//    对可读的key进行处理
+    private void readKey(SelectionKey key) throws IOException{
+        //从key中解析出请求
+        Request request = new Request(key, this);
+        System.out.println("请求内容为："+request.getRequestString());
+        System.out.println("请求uri为："+request.getUri());
+
+//        获取response
+        Response response = new Response();
+//        使用HttpProcessor来处理响应
+        HttpProcessor httpProcessor = new HttpProcessor();
+        httpProcessor.executor(key,request,response);
+
+    }
+
+//    对可写的key进行处理
+    private void writeKey(SelectionKey key) throws IOException{
+//        SocketChannel socketChannel = (SocketChannel) key.channel();
+//        socketChannel.close();
+    }
+
 
     @Override
     public String toString() {
